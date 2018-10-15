@@ -31,9 +31,7 @@ class Problem3
         @prime_array.push factor
       end
     end
+    # return the largest prime factor of num
     return @prime_array.max
   end
 end
-
-val = Problem3.new
-val.num_factors(7678798)
